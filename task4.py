@@ -48,6 +48,15 @@ def main():
                     print(add_contact(args, contacts))
                     # Додаємо контакт до файлу
                     file.write(f"{args[0]},{args[1]}\n")
+                elif command == "phone":
+                    
+
+                elif command == "all":
+                    print()
+
+                elif command == "change":
+
+                     
                 else:
                     print("Invalid command.")
         except Exception as e:
