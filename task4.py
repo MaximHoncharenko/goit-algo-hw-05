@@ -40,8 +40,6 @@ def change_contact(args, contacts):
 @input_error
 def get_phone(args, contacts):
     # Перевіряємо, чи є аргументи і чи ім'я є в списку контактів
-    if len(args) > 0:
-        name = args[0]
         if name in contacts:
             return f"{name}'s phone number is {contacts[name]}"
         else:
